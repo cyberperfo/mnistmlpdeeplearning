@@ -52,16 +52,3 @@ Modelin gerçek hayattaki el yazısı verileri üzerindeki başarımını test e
 
 ---
 
-## 5. Proje Dosya Düzeni (Directory Structure)
-
-```text
-mnist-okulno-proje/
-│
-├── data/                         # MNIST veri setinin indirildiği klasör
-├── gercek_el_yazisi_28x28/       # Kendi el yazımla hazırladığım 28x28 11 adet rakam görseli
-│   ├── rakam_1_28x28.png
-│   ├── rakam_2_28x28.png
-│   └── ... (rakam_11_28x28.png)
-│
-├── main.py                       # Model eğitimi, değerlendirme ve test kodları
-└── README.md                     # Proje raporu
